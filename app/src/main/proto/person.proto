@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+package datagramSocket;
+
+option java_package = "com.bigyaa.datagramsocket";
+option java_outer_classname = "AddressBookProtos";
+
+message Person {
+  required int32 id = 1;
+  required string latitude = 2;
+  required string longitude = 3;
+
+}
+message AddressBook {
+  repeated Person people = 1;
+}
