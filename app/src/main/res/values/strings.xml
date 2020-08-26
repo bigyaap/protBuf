@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DatagramSocket</string>
+    <string name="latitudeBabel">Latitude</string>
+    <string name="longitudeBabel">Longitude</string>
 </resources>
